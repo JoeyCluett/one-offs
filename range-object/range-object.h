@@ -4,6 +4,15 @@
 #include <algorithm>
 #include <functional>
 
+//
+// allows python-style range:
+// made with as much template/lambda/std::function goodness as i could pack in
+//
+//   for(auto& item : range(begval, endval)) {
+//       ...;
+//   }
+//
+
 auto operator++(std::vector<int>& v_in) -> std::vector<int>& {
     next_permutation(v_in.begin(), v_in.end()); return v_in; }
 
