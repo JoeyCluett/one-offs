@@ -1,5 +1,16 @@
 #pragma once
 
+//
+// no error checking
+// can use the print() function as
+//
+//  print("${0} ${0} ${2} ${1}", { 0, "ZE-RO", 3.14159, "this one is unused" });
+//
+//  which would print:
+//
+//  0 0 3.14159 ZE-RO
+//
+
 #include <iostream>
 #include <string>
 #include <vector>
