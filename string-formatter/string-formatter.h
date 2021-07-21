@@ -2,6 +2,7 @@
 
 //
 // no error checking
+// any primitive type and std::string's are valid entries
 // can use the print() function as
 //
 //  print("${0} ${0} ${2} ${1}", { 0, "ZE-RO", 3.14159, "this one is unused" });
